@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lịch họp công ty</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 30px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: center;
+        }
+
+        th, td {
+            border: 1px solid #333;
+            padding: 12px;
+        }
+
+        th {
+            background-color: #3498db;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h1>Lịch họp công ty</h1>
+
+    <table>
+        <tr>
+            <th>Ngày</th>
+            <th>Giờ</th>
+            <th>Nội dung cuộc họp</th>
+        </tr>
+
+        <tr>
+            <td rowspan="2">Thứ Hai</td>
+            <td>08:00 - 09:00</td>
+            <td>Họp phòng kinh doanh</td>
+        </tr>
+
+        <tr>
+            <td>09:00 - 10:00</td>
+            <td>Họp phòng marketing</td>
+        </tr>
+
+        <tr>
+            <td>Thứ Ba</td>
+            <td colspan="2">08:00 - 10:00: Họp toàn công ty</td>
+        </tr>
+
+        <tr>
+            <td rowspan="2">Thứ Tư</td>
+            <td>13:00 - 14:00</td>
+            <td>Họp dự án A</td>
+        </tr>
+
+        <tr>
+            <td>14:00 - 15:00</td>
+            <td>Báo cáo tiến độ dự án</td>
+        </tr>
+    </table>
+</body>
+</html>
